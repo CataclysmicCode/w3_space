@@ -1,0 +1,16 @@
+{
+    "name": "node-none-blank",
+    "version": "1.0.0",
+    "description": "Node.js blank template",
+    "author": "",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "dev": "nodemon -I -q node server.js"
+    },
+    "dependencies": {
+      "express": "^4.16.1",
+      "nodemon": "^2.0.2",
+      "dotenv": "^16.0.3"
+    }
+  }
